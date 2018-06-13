@@ -1,0 +1,25 @@
+.hero {
+
+}
+
+.jumbotron {
+  background-image: url(https://image.redbull.com/rbcom/052/2018-06-10/5f8bfa0e-6e71-4e14-b774-169f9236ac45/0012/0/158/0/657/1999/1950/1/leogang-dh-world-cup-2018-rachel-atherton-finals.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px;
+  min-height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contest-rules {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  width: 50%;
+}

@@ -11,14 +11,14 @@ h2 {
 .navbar {
   display: flex;
   justify-content: center;
-  font-size: 1rem; 
+  font-size: 1rem;
 }
 .jumbotron {
   background-image: url(https://image.redbull.com/rbcom/052/2018-06-10/5f8bfa0e-6e71-4e14-b774-169f9236ac45/0012/0/158/0/657/1999/1950/1/leogang-dh-world-cup-2018-rachel-atherton-finals.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0px;
-  min-height: 300px;
+  min-height: 150px;
 
   display: flex;
   flex-direction: column;
@@ -26,17 +26,4 @@ h2 {
   align-items: center;
 
   text-shadow: 1px 1px 2px black;
-}
-
-
-/* @media only screen and (max-width:480px) {
-  .row {
-    width: 90%;
-  } */
-  /* #rules {
-    font-size: 1rem;
-    padding: 1rem;
-  } */
-
-
 }

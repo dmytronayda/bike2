@@ -1,29 +1,28 @@
 body {
   font-size: 16px;
+  font-family: 'Futura Com','sans-serif';
+  font-weight: bold condensed;
 }
-h1 {
-  font-size: 3rem;
+
+h3 {
+  font-size: 2rem;
+  font-family: 'Futura','sans-serif';
+  font-weight: bold;
 }
-h2 {
+h5 {
   font-size: 1.5rem;
+  font-family: 'Futura','sans-serif';
+  font-weight: bold;
+}
+.mobile {
+  display: none;
 }
 
-.navbar {
-  display: flex;
-  justify-content: center;
-  font-size: 1rem;
-}
-.jumbotron {
-  background-image: url(https://image.redbull.com/rbcom/052/2018-06-10/5f8bfa0e-6e71-4e14-b774-169f9236ac45/0012/0/158/0/657/1999/1950/1/leogang-dh-world-cup-2018-rachel-atherton-finals.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 0px;
-  min-height: 150px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  text-shadow: 1px 1px 2px black;
+@media only screen and (max-width: 480px) {
+  .mobile {
+    display: grid;
+  }
+  .desktop {
+    display: none;
+  }
 }

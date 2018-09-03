@@ -26,6 +26,11 @@ a:hover, a:visited {
   color: #db0a40;
 }
 
+input[type='text'],
+input[type='number'],
+textarea {
+  font-size: 16px;
+}
 
 @media only screen and (max-width: 480px) {
   .mobile {

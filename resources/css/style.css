@@ -5,17 +5,25 @@ body {
 }
 
 h3 {
-  font-size: 2rem;
-  font-family: 'Futura','sans-serif';
-  font-weight: bold;
-}
-h5 {
   font-size: 1.5rem;
   font-family: 'Futura','sans-serif';
-  font-weight: bold;
+  /* font-weight: bold; */
+}
+h5 {
+  font-size: 1.2rem;
+  font-family: 'Futura','sans-serif';
 }
 .mobile {
   display: none;
+}
+
+a {
+  color: #db0a40;
+  text-decoration: none;
+}
+
+a:hover, a:visited {
+  color: #db0a40;
 }
 
 

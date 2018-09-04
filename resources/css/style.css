@@ -1,20 +1,52 @@
 body {
   font-size: 16px;
-  font-family: 'Futura Com','sans-serif';
+  font-family: 'Bull','sans-serif';
   font-weight: bold condensed;
 }
 
 h3 {
   font-size: 1.5rem;
-  font-family: 'Futura','sans-serif';
+  font-family: 'Bull','sans-serif';
   /* font-weight: bold; */
 }
 h5 {
   font-size: 1.2rem;
-  font-family: 'Futura','sans-serif';
+  font-family: 'Bull','sans-serif';
 }
 .mobile {
   display: none;
+}
+
+@font-face {
+    font-family: 'Bull';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url('https://resources.redbull.com/fonts/bull/v3/latin/Bull-Regular.woff2') format('woff2'), url('https://resources.redbull.com/fonts/bull/v3/latin/Bull-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Bull';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: url('https://resources.redbull.com/fonts/bull/v3/latin/Bull-Medium.woff2') format('woff2'), url('https://resources.redbull.com/fonts/bull/v3/latin/Bull-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Bull';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url('https://resources.redbull.com/fonts/bull/v3/latin/Bull-Bold.woff2') format('woff2'), url('https://resources.redbull.com/fonts/bull/v3/latin/Bull-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Bull';
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+    src: url('https://resources.redbull.com/fonts/bull/v3/latin/Bull-Heavy1.woff2') format('woff2'), url('https://resources.redbull.com/fonts/bull/v3/latin/Bull-Heavy1.woff') format('woff');
 }
 
 a {
